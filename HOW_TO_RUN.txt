@@ -1,0 +1,26 @@
+FINAL_UPDATE_LMD
+================
+
+This folder contains the runnable LMD SOC dashboard project.
+
+To run the website on Windows:
+
+1. Open this folder.
+2. Double-click RUN_WEBSITE.bat.
+3. Open http://localhost:5000 in your browser.
+
+Manual command:
+
+    pip install -r requirements.txt
+    python app.py
+
+Included runtime files:
+
+- app.py and index.html for the Flask dashboard
+- src/ compatibility package with the detection modules
+- outputs/ with the trained Isolation Forest model, threshold, and Mission 4 summary
+- sample upload files:
+  - family2_test_upload_unlabeled.csv
+  - random_soc_test_unlabeled.csv
+  - lmd-upload-test.json
+- tools/Start-LocalSysmonCollector.ps1 for local live-event collection

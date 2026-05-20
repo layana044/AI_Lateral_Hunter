@@ -1,0 +1,46 @@
+=================================================================
+  MISSION 4 — Hybrid Detection System: Final Evaluation Report
+  Smiliotopoulos et al. (2025) — LMD-2023 Dataset
+=================================================================
+
+DATASET
+  Total records  : 1,752,836
+  Malicious      : 141,217  (8.06%)
+  Benign         : 1,611,619
+
+─────────────────────────────────────────────────────────────────
+LAYER 1 — RULE ENGINE (Deterministic MITRE ATT&CK Rules)
+  Detection Rate         : 73.6569%
+  False Positive Rate    : 0.2265%
+  Precision              : 96.6099%
+  F1 Score               : 83.5863%
+  Accuracy               : 97.6694%
+  TP=104,016  FP=3,650  TN=1,607,969  FN=37,201
+
+─────────────────────────────────────────────────────────────────
+LAYER 2 — ISOLATION FOREST (ML Anomaly Detection)
+  Detection Rate         : 99.9858%
+  False Positive Rate    : 6.9628%
+  Precision              : 55.7186%
+  F1 Score               : 71.5595%
+  Accuracy               : 93.5970%
+  TP=141,197  FP=112,214  TN=1,499,405  FN=20
+
+─────────────────────────────────────────────────────────────────
+FINAL — HYBRID SYSTEM  (rule_alert | (ml_strict & blind_spot))
+  Fusion mode            : ML-as-secondary-layer (precision-preserving)
+  Base threshold         : 0.0450
+  Strict threshold       : -0.0297  (delta=0.0747)
+  Detection Rate         : 92.1291%
+  False Positive Rate    : 1.4579%
+  Precision              : 84.7035%
+  F1 Score               : 88.2604%
+  Accuracy               : 98.0255%
+  TP=130,102  FP=23,495  TN=1,588,124  FN=11,115
+
+  ML standalone alerts   : 45,931  (blind-spot detections)
+  FN recovered by ML     : 26,086  attacks missed by rules
+  ML confirmed rule hits : 107,666  (rule + ML both fired)
+  Remaining undetected   : 11,115 (7.87% of all attacks)
+  Total execution time   : 61.1 seconds
+=================================================================
