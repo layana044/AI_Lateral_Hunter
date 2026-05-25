@@ -1,0 +1,866 @@
+UtcTime,User,Computer,EventID,Image,CommandLine,SourceIp,DestinationIp,SourcePort,DestinationPortName
+2025-11-20 03:15:00,jdoe,WKSTN-102,4624,-,-,192.168.1.15,-,-,-
+2025-11-20 09:00:55,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,99.52.1.1,25474,443
+2025-11-20 09:01:05,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:01:56,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:03:00,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:03:16,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:03:18,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,43.141.1.1,12401,443
+2025-11-20 09:03:22,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,41.243.1.1,25526,443
+2025-11-20 09:03:25,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:03:31,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:04:04,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:04:20,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:04:57,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:05:00,jdoe,SRV-DB01,4624,-,-,192.168.1.15,-,-,-
+2025-11-20 09:05:39,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:06:29,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:07:00,jdoe,WKSTN-102,10,C:\Users\jdoe\Downloads\mimikatz.exe,mimikatz.exe privilege::debug sekurlsa::logonpasswords,-,-,-,-
+2025-11-20 09:07:15,jdoe,WKSTN-102,10,C:\Windows\System32\taskmgr.exe,taskmgr.exe dump lsass.exe,-,-,-,-
+2025-11-20 09:07:56,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,54.200.1.1,23448,443
+2025-11-20 09:08:46,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:08:54,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:09:46,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:11:01,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:12:07,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 09:12:10,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:12:15,jdoe,WKSTN-102,17,C:\Windows\System32\services.exe,\psexesvc,-,-,-,-
+2025-11-20 09:12:21,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:12:40,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:13:03,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.47,109.79.1.1,56139,443
+2025-11-20 09:13:49,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,104.118.1.1,41782,443
+2025-11-20 09:14:15,jdoe,WKSTN-102,3,C:\Windows\System32\cmd.exe,-,192.168.1.15,192.168.1.100,49552,445
+2025-11-20 09:14:28,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,23.130.1.1,16189,443
+2025-11-20 09:14:35,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,54.138.1.1,29420,443
+2025-11-20 09:14:50,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:14:54,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:15:15,jdoe,WKSTN-102,8,C:\Users\jdoe\payload.exe,-,-,-,-,-
+2025-11-20 09:16:11,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,75.220.1.1,58463,443
+2025-11-20 09:16:12,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:16:15,jdoe,WKSTN-102,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe -nop -w hidden -EncodedCommand JABzAD0ATg,-,-,-,-
+2025-11-20 09:16:19,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:17:03,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.17,118.204.1.1,31494,443
+2025-11-20 09:17:15,jdoe,SRV-WEB01,4624,-,-,192.168.1.15,-,-,-
+2025-11-20 09:17:45,jdoe,SRV-FS01,4624,-,-,192.168.1.15,-,-,-
+2025-11-20 09:18:03,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:18:15,jdoe,WKSTN-104,4624,-,-,192.168.1.15,-,-,-
+2025-11-20 09:18:38,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:18:47,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:19:00,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:19:24,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:19:45,jdoe,WKSTN-102,3,C:\Windows\System32\powershell.exe,-,192.168.1.15,10.10.10.10,55555,3389
+2025-11-20 09:20:31,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,125.26.1.1,48850,443
+2025-11-20 09:20:36,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:20:37,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,39.32.1.1,21623,443
+2025-11-20 09:20:42,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:20:45,jdoe,WKSTN-102,3,C:\Windows\System32\powershell.exe,-,192.168.1.15,10.10.10.10,55555,3389
+2025-11-20 09:21:13,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,168.109.1.1,43863,443
+2025-11-20 09:21:39,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:21:40,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:21:45,jdoe,WKSTN-102,3,C:\Windows\System32\powershell.exe,-,192.168.1.15,10.10.10.10,55555,3389
+2025-11-20 09:21:55,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,92.56.1.1,33918,443
+2025-11-20 09:22:16,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.28,24.253.1.1,12583,443
+2025-11-20 09:22:45,jdoe,WKSTN-102,3,C:\Windows\System32\powershell.exe,-,192.168.1.15,10.10.10.10,55555,3389
+2025-11-20 09:23:00,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:23:09,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 09:23:19,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:24:07,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:25:19,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:25:57,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 09:26:12,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,57.136.1.1,48646,443
+2025-11-20 09:26:27,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,183.194.1.1,12269,443
+2025-11-20 09:27:25,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:27:56,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:29:31,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:29:37,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:29:40,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:29:55,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:30:10,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:31:00,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,191.186.1.1,45253,443
+2025-11-20 09:32:21,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.48,174.246.1.1,37091,443
+2025-11-20 09:32:57,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,197.200.1.1,28748,443
+2025-11-20 09:33:26,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:34:43,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:34:50,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,144.99.1.1,41647,443
+2025-11-20 09:35:41,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:35:58,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:36:23,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:36:48,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,93.162.1.1,37888,443
+2025-11-20 09:38:36,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,175.217.1.1,44356,443
+2025-11-20 09:38:42,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:38:48,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:39:00,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:39:03,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,70.157.1.1,51712,443
+2025-11-20 09:40:51,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:40:57,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 09:42:32,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,34.2.1.1,46229,443
+2025-11-20 09:42:34,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:42:42,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.22,177.26.1.1,21424,443
+2025-11-20 09:43:10,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,179.79.1.1,34249,443
+2025-11-20 09:43:38,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:43:39,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.49,56.19.1.1,52213,443
+2025-11-20 09:45:15,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:45:19,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 09:45:19,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.13,181.128.1.1,36794,443
+2025-11-20 09:45:52,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,67.12.1.1,52253,443
+2025-11-20 09:46:39,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,11.213.1.1,54031,443
+2025-11-20 09:46:53,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:47:22,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:47:52,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 09:48:31,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,84.251.1.1,13190,443
+2025-11-20 09:48:43,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,94.216.1.1,49171,443
+2025-11-20 09:49:12,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 09:49:41,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:51:27,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 09:52:14,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:52:49,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,168.68.1.1,57110,443
+2025-11-20 09:53:12,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:53:23,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,25.12.1.1,15762,443
+2025-11-20 09:53:39,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:53:50,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,126.238.1.1,25163,443
+2025-11-20 09:53:57,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 09:53:57,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:54:29,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:54:43,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,54.252.1.1,49500,443
+2025-11-20 09:55:10,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:56:10,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:56:35,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:56:49,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:57:01,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,77.7.1.1,34507,443
+2025-11-20 09:57:09,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 09:58:09,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 09:58:32,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 09:59:22,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,74.179.1.1,44493,443
+2025-11-20 10:00:03,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,47.221.1.1,18227,443
+2025-11-20 10:00:30,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:00:47,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,79.10.1.1,31538,443
+2025-11-20 10:01:17,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:01:20,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.20,136.179.1.1,21042,443
+2025-11-20 10:01:38,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,138.113.1.1,25488,443
+2025-11-20 10:02:18,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:02:31,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:02:34,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,127.163.1.1,40453,443
+2025-11-20 10:03:33,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:04:31,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:05:01,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,188.97.1.1,47175,443
+2025-11-20 10:06:54,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:07:03,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:07:16,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:07:21,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:07:50,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:08:01,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:08:58,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,146.118.1.1,28885,443
+2025-11-20 10:09:28,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,88.1.1.1,51193,443
+2025-11-20 10:09:32,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:09:53,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:10:20,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,21.210.1.1,19170,443
+2025-11-20 10:11:43,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:11:45,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:12:07,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,35.239.1.1,11155,443
+2025-11-20 10:12:23,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:13:09,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:13:15,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:15:46,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:18:05,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,70.58.1.1,46404,443
+2025-11-20 10:18:13,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,52.192.1.1,30380,443
+2025-11-20 10:18:51,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:20:12,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,169.123.1.1,41763,443
+2025-11-20 10:20:21,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:20:40,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 10:21:19,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:21:25,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:22:22,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:22:29,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:22:47,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,141.230.1.1,20134,443
+2025-11-20 10:22:51,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,10.95.1.1,39455,443
+2025-11-20 10:23:43,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,11.72.1.1,26352,443
+2025-11-20 10:23:54,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:24:17,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:27:02,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:27:37,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:27:41,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,104.66.1.1,15014,443
+2025-11-20 10:29:13,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 10:29:24,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:30:46,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:30:57,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:31:16,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:31:18,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:31:24,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:31:49,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:31:57,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,123.214.1.1,47673,443
+2025-11-20 10:32:05,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,10.57.1.1,47109,443
+2025-11-20 10:32:19,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:34:28,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:34:54,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.20,130.140.1.1,17265,443
+2025-11-20 10:35:13,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,50.206.1.1,20462,443
+2025-11-20 10:35:35,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 10:37:11,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:38:45,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,52.224.1.1,57630,443
+2025-11-20 10:39:00,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:39:14,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:39:28,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:42:01,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:42:22,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:42:24,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,173.194.1.1,29900,443
+2025-11-20 10:42:35,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:43:24,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,14.122.1.1,35248,443
+2025-11-20 10:43:42,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.29,72.49.1.1,30190,443
+2025-11-20 10:43:49,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,73.101.1.1,54745,443
+2025-11-20 10:43:56,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,96.75.1.1,10941,443
+2025-11-20 10:44:52,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,73.249.1.1,28492,443
+2025-11-20 10:45:36,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:45:45,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:46:57,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 10:47:27,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:47:33,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:48:17,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,148.35.1.1,33827,443
+2025-11-20 10:48:20,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,83.135.1.1,24566,443
+2025-11-20 10:49:48,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:49:55,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 10:50:02,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:50:17,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:50:44,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 10:50:45,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 10:52:32,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 10:52:35,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:54:10,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:54:29,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.13,180.116.1.1,58546,443
+2025-11-20 10:54:32,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:55:05,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 10:56:22,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:57:22,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:57:36,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,51.1.1.1,47247,443
+2025-11-20 10:57:42,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:58:31,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 10:58:42,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 10:59:28,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 10:59:56,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:00:18,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:00:21,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.29,67.148.1.1,16725,443
+2025-11-20 11:00:35,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 11:01:28,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,59.205.1.1,33507,443
+2025-11-20 11:02:51,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:04:05,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,121.185.1.1,28850,443
+2025-11-20 11:04:31,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:04:41,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:05:13,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:06:34,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:07:04,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:07:22,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:07:51,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:07:58,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:08:17,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:08:40,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 11:08:47,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:09:06,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:09:20,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:09:29,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,86.200.1.1,12806,443
+2025-11-20 11:13:41,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,118.221.1.1,38504,443
+2025-11-20 11:14:18,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.48,32.24.1.1,45094,443
+2025-11-20 11:14:19,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:14:24,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:15:24,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:16:34,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.10,25.11.1.1,38691,443
+2025-11-20 11:17:08,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:17:35,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.31,150.145.1.1,38021,443
+2025-11-20 11:17:38,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:18:01,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:18:35,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:19:33,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,116.28.1.1,11299,443
+2025-11-20 11:19:35,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,20.48.1.1,50856,443
+2025-11-20 11:20:06,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:20:16,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:20:17,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,106.6.1.1,45172,443
+2025-11-20 11:20:43,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,76.184.1.1,54482,443
+2025-11-20 11:20:56,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:21:09,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:22:01,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:22:05,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:22:31,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.49,66.227.1.1,29196,443
+2025-11-20 11:22:53,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,36.212.1.1,10825,443
+2025-11-20 11:23:47,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,132.221.1.1,31454,443
+2025-11-20 11:24:27,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:24:34,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,117.13.1.1,42489,443
+2025-11-20 11:24:39,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,161.87.1.1,53656,443
+2025-11-20 11:26:50,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:27:13,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,114.18.1.1,23216,443
+2025-11-20 11:28:17,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:28:42,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.24,83.37.1.1,43793,443
+2025-11-20 11:30:31,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:30:54,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:31:10,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:31:35,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:32:07,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:33:15,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.22,48.240.1.1,50721,443
+2025-11-20 11:33:33,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 11:33:33,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:35:40,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:36:00,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:36:08,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,76.187.1.1,23622,443
+2025-11-20 11:36:19,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:36:22,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,177.178.1.1,48452,443
+2025-11-20 11:37:15,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,166.56.1.1,36303,443
+2025-11-20 11:37:25,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:38:15,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:39:18,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,120.65.1.1,34160,443
+2025-11-20 11:39:21,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,124.128.1.1,13427,443
+2025-11-20 11:40:52,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:41:17,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 11:42:05,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:42:16,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 11:42:45,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:43:15,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,54.89.1.1,45862,443
+2025-11-20 11:44:08,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:45:02,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,111.125.1.1,20650,443
+2025-11-20 11:45:19,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:46:17,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,145.71.1.1,58383,443
+2025-11-20 11:46:46,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:47:32,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:47:36,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,102.203.1.1,57703,443
+2025-11-20 11:48:01,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,159.239.1.1,33757,443
+2025-11-20 11:48:53,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:49:01,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:49:42,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,97.126.1.1,33145,443
+2025-11-20 11:50:05,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:51:04,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 11:51:05,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,162.5.1.1,38212,443
+2025-11-20 11:51:44,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:52:09,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,68.71.1.1,41578,443
+2025-11-20 11:52:19,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:53:00,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:53:19,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:53:49,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.31,94.1.1.1,14954,443
+2025-11-20 11:54:31,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:54:58,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,106.71.1.1,36672,443
+2025-11-20 11:55:03,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 11:55:34,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 11:55:51,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,141.251.1.1,53596,443
+2025-11-20 11:55:55,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:55:56,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 11:56:50,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,103.120.1.1,10777,443
+2025-11-20 11:56:57,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,13.126.1.1,33771,443
+2025-11-20 11:56:59,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 11:57:21,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 11:57:33,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,12.81.1.1,28833,443
+2025-11-20 11:58:13,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 11:58:30,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:00:25,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,170.255.1.1,17548,443
+2025-11-20 12:00:33,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:00:51,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,124.59.1.1,52995,443
+2025-11-20 12:01:18,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.49,57.45.1.1,49760,443
+2025-11-20 12:01:44,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:02:34,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:02:51,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:03:23,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:06:49,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:07:00,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,79.18.1.1,44067,443
+2025-11-20 12:07:19,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:07:21,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 12:08:19,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:08:20,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:08:27,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:09:40,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:10:14,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:10:24,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,144.131.1.1,38740,443
+2025-11-20 12:10:25,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:10:42,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:11:27,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,96.219.1.1,51392,443
+2025-11-20 12:11:44,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:11:45,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,44.216.1.1,17783,443
+2025-11-20 12:12:26,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.48,116.71.1.1,31484,443
+2025-11-20 12:12:33,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,125.65.1.1,13341,443
+2025-11-20 12:12:58,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:13:35,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:14:44,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:15:36,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:16:40,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,29.114.1.1,40746,443
+2025-11-20 12:16:57,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,34.36.1.1,35209,443
+2025-11-20 12:17:05,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:17:17,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,87.133.1.1,49741,443
+2025-11-20 12:18:38,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:20:01,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.10,179.243.1.1,23005,443
+2025-11-20 12:20:24,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:21:06,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,174.49.1.1,13027,443
+2025-11-20 12:21:12,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:21:44,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.49,132.60.1.1,31679,443
+2025-11-20 12:24:09,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:25:20,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,48.188.1.1,50660,443
+2025-11-20 12:25:33,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,161.144.1.1,20992,443
+2025-11-20 12:25:44,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,15.141.1.1,57069,443
+2025-11-20 12:25:55,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:26:04,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:26:33,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:26:56,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:27:34,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:27:48,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.47,66.28.1.1,32555,443
+2025-11-20 12:28:38,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:29:32,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:30:12,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:30:18,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:30:23,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:30:40,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:30:57,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:31:10,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:32:09,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,190.218.1.1,16511,443
+2025-11-20 12:34:37,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:34:56,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:35:12,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,73.26.1.1,56310,443
+2025-11-20 12:35:20,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:35:22,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,197.205.1.1,28669,443
+2025-11-20 12:36:19,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:36:50,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 12:37:18,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,141.233.1.1,28957,443
+2025-11-20 12:37:19,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:37:46,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:37:48,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:38:30,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:38:43,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,34.183.1.1,40333,443
+2025-11-20 12:38:53,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,53.48.1.1,25913,443
+2025-11-20 12:39:22,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:40:53,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:42:09,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,105.140.1.1,28781,443
+2025-11-20 12:42:14,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:43:28,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:44:01,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:45:04,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,173.72.1.1,43466,443
+2025-11-20 12:47:15,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:47:23,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 12:47:24,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:48:03,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:48:04,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,76.52.1.1,24854,443
+2025-11-20 12:48:40,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,107.146.1.1,25456,443
+2025-11-20 12:48:51,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 12:49:06,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,79.246.1.1,37429,443
+2025-11-20 12:50:30,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:51:09,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.25,121.10.1.1,11118,443
+2025-11-20 12:52:06,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.10,31.165.1.1,48729,443
+2025-11-20 12:53:29,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:53:55,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 12:55:38,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 12:55:40,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 12:56:05,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,130.242.1.1,10062,443
+2025-11-20 12:57:31,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:57:36,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:57:47,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 12:57:48,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,22.150.1.1,51744,443
+2025-11-20 12:58:43,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:58:46,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,197.139.1.1,53280,443
+2025-11-20 12:58:47,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.47,148.134.1.1,54413,443
+2025-11-20 12:58:55,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 12:59:37,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.24,41.64.1.1,30229,443
+2025-11-20 13:00:25,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:01:20,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.22,21.23.1.1,15955,443
+2025-11-20 13:01:35,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 13:01:54,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,107.70.1.1,56271,443
+2025-11-20 13:02:36,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:03:08,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:03:11,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:03:27,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:03:48,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:04:00,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:04:08,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 13:04:56,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:04:57,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:05:09,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:05:39,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,41.219.1.1,43101,443
+2025-11-20 13:05:44,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:05:56,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,70.99.1.1,34786,443
+2025-11-20 13:06:37,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 13:06:56,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:06:59,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,23.49.1.1,39407,443
+2025-11-20 13:07:28,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:07:38,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,17.145.1.1,11515,443
+2025-11-20 13:07:56,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:08:43,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:10:15,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,146.123.1.1,27057,443
+2025-11-20 13:10:16,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,52.232.1.1,26957,443
+2025-11-20 13:10:37,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:11:59,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:12:52,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:14:09,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,52.144.1.1,42305,443
+2025-11-20 13:14:22,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:14:31,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:14:43,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:14:45,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:15:20,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.10,109.171.1.1,46564,443
+2025-11-20 13:16:22,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:16:42,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,67.124.1.1,32151,443
+2025-11-20 13:16:54,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:17:18,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:18:06,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:18:39,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,112.87.1.1,44474,443
+2025-11-20 13:19:00,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,32.87.1.1,16778,443
+2025-11-20 13:19:02,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:19:34,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:19:50,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,17.67.1.1,40838,443
+2025-11-20 13:20:08,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:21:04,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,68.112.1.1,11429,443
+2025-11-20 13:21:11,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:21:59,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:22:18,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,25.218.1.1,58719,443
+2025-11-20 13:22:33,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:24:21,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:26:43,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:28:21,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,166.58.1.1,39337,443
+2025-11-20 13:28:25,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:28:39,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:29:31,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,43.200.1.1,46214,443
+2025-11-20 13:30:15,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:31:24,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:31:24,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:31:31,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,107.93.1.1,41296,443
+2025-11-20 13:32:18,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,26.148.1.1,42172,443
+2025-11-20 13:32:18,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:32:44,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:33:02,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,66.109.1.1,23633,443
+2025-11-20 13:33:29,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:33:30,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:33:49,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:33:54,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:34:00,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:34:14,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:34:38,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,80.149.1.1,51612,443
+2025-11-20 13:34:49,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:34:53,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:35:18,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:35:31,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:35:47,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:36:22,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:38:21,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,40.21.1.1,51243,443
+2025-11-20 13:38:45,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:40:54,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,15.188.1.1,59684,443
+2025-11-20 13:41:36,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:42:09,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,11.159.1.1,57773,443
+2025-11-20 13:42:28,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.22,118.3.1.1,20796,443
+2025-11-20 13:42:36,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:43:22,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:44:54,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:44:55,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:45:03,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 13:45:24,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,34.158.1.1,45320,443
+2025-11-20 13:46:41,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:47:30,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:47:37,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:48:00,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:48:34,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.20,79.245.1.1,44259,443
+2025-11-20 13:48:36,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:48:52,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:50:00,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 13:50:35,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,163.214.1.1,50892,443
+2025-11-20 13:50:50,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 13:50:54,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.48,185.27.1.1,50168,443
+2025-11-20 13:50:58,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 13:51:42,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 13:52:16,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.48,93.214.1.1,27489,443
+2025-11-20 13:52:44,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,25.167.1.1,45671,443
+2025-11-20 13:54:39,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.31,183.40.1.1,42406,443
+2025-11-20 13:56:24,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,162.140.1.1,15844,443
+2025-11-20 13:56:37,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,131.81.1.1,22597,443
+2025-11-20 13:59:10,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 13:59:13,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 13:59:54,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:00:21,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,175.61.1.1,14611,443
+2025-11-20 14:00:57,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:01:00,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:01:03,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,10.105.1.1,52044,443
+2025-11-20 14:01:19,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:02:05,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,20.155.1.1,26432,443
+2025-11-20 14:02:42,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:04:02,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,92.1.1.1,39677,443
+2025-11-20 14:04:51,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.47,59.145.1.1,20147,443
+2025-11-20 14:05:00,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.22,130.43.1.1,26774,443
+2025-11-20 14:05:00,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:05:40,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:06:12,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:06:39,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:07:53,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:08:04,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:08:08,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,106.221.1.1,33691,443
+2025-11-20 14:08:47,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:08:51,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,81.140.1.1,23398,443
+2025-11-20 14:08:55,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:09:28,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:11:02,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:11:42,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,52.87.1.1,44272,443
+2025-11-20 14:13:59,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:14:09,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,37.118.1.1,42443,443
+2025-11-20 14:14:58,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:16:35,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:17:07,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:17:24,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,56.154.1.1,16362,443
+2025-11-20 14:18:02,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:18:26,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.33,10.56.1.1,56999,443
+2025-11-20 14:19:24,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:19:33,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,159.150.1.1,50400,443
+2025-11-20 14:19:46,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:19:58,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,13.61.1.1,41844,443
+2025-11-20 14:20:44,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:20:49,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:21:03,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:21:04,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:22:31,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,151.122.1.1,55892,443
+2025-11-20 14:22:48,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,73.254.1.1,53503,443
+2025-11-20 14:22:55,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:23:27,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:23:39,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:23:45,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:23:49,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:24:22,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:25:38,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.20,38.249.1.1,11505,443
+2025-11-20 14:25:50,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:26:08,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,23.133.1.1,54472,443
+2025-11-20 14:26:51,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:26:58,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:27:38,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:27:38,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,189.15.1.1,26841,443
+2025-11-20 14:29:19,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:29:52,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:30:17,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.33,32.70.1.1,53482,443
+2025-11-20 14:30:30,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:30:50,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:31:24,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:31:26,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:31:37,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,185.105.1.1,54600,443
+2025-11-20 14:31:51,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:31:59,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:32:30,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,159.70.1.1,39935,443
+2025-11-20 14:33:00,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:33:01,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:33:58,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:34:07,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:34:32,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,110.115.1.1,26710,443
+2025-11-20 14:34:58,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:35:36,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:35:46,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:36:34,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:37:02,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.10,77.20.1.1,35663,443
+2025-11-20 14:37:11,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:37:29,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:37:43,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,192.202.1.1,22332,443
+2025-11-20 14:38:18,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:39:42,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:40:46,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.28,30.48.1.1,53064,443
+2025-11-20 14:40:59,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:41:15,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:41:27,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:42:27,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:42:49,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:42:56,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:43:28,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:43:33,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:44:32,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,34.42.1.1,46842,443
+2025-11-20 14:45:28,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:46:28,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.31,135.214.1.1,31552,443
+2025-11-20 14:47:59,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:48:52,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:49:15,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:50:36,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:50:40,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 14:50:47,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,147.165.1.1,26671,443
+2025-11-20 14:51:15,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 14:51:23,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:51:38,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 14:52:02,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,68.222.1.1,15651,443
+2025-11-20 14:52:27,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:52:51,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.11,29.22.1.1,23830,443
+2025-11-20 14:53:16,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 14:53:50,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.47,19.255.1.1,57355,443
+2025-11-20 14:54:10,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:55:06,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:55:42,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 14:55:54,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 14:55:59,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,118.60.1.1,10880,443
+2025-11-20 14:57:04,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 14:57:36,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,157.120.1.1,47482,443
+2025-11-20 14:57:48,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.14,127.91.1.1,58215,443
+2025-11-20 14:57:54,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 14:59:23,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:00:35,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:01:22,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:01:53,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:02:09,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.17,30.56.1.1,52494,443
+2025-11-20 15:02:56,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:03:50,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.13,200.227.1.1,37499,443
+2025-11-20 15:03:58,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:04:14,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.29,164.58.1.1,26055,443
+2025-11-20 15:05:47,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:05:49,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:07:30,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:07:43,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:10:08,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:10:29,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:11:26,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,98.21.1.1,20291,443
+2025-11-20 15:11:27,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:11:33,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:12:03,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:12:05,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.45,197.239.1.1,22211,443
+2025-11-20 15:13:22,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:13:36,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:13:40,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:15:27,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:15:50,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.29,97.87.1.1,24941,443
+2025-11-20 15:16:03,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 15:16:07,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:16:42,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:17:24,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:17:30,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,48.111.1.1,23265,443
+2025-11-20 15:18:07,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 15:19:05,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,153.85.1.1,23008,443
+2025-11-20 15:19:14,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:19:15,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:19:42,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,47.19.1.1,58713,443
+2025-11-20 15:20:59,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:22:10,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:22:10,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:22:13,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:22:16,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.33,188.204.1.1,58030,443
+2025-11-20 15:22:56,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.13,126.244.1.1,57515,443
+2025-11-20 15:23:56,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:24:28,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:26:20,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:27:49,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:28:05,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,84.166.1.1,24760,443
+2025-11-20 15:29:25,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:29:51,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:32:00,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:33:11,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.18,197.201.1.1,49679,443
+2025-11-20 15:33:34,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:33:42,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:34:06,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.26,123.66.1.1,46606,443
+2025-11-20 15:34:13,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:34:16,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:35:05,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.11,41.196.1.1,33880,443
+2025-11-20 15:36:37,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,48.90.1.1,42607,443
+2025-11-20 15:36:40,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:36:44,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 15:37:12,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,143.25.1.1,36472,443
+2025-11-20 15:37:22,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,144.150.1.1,50569,443
+2025-11-20 15:37:38,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.15,21.62.1.1,32437,443
+2025-11-20 15:38:42,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:39:20,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,30.7.1.1,24108,443
+2025-11-20 15:40:11,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,172.146.1.1,31679,443
+2025-11-20 15:41:13,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:41:40,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:41:42,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:41:46,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:42:24,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:42:59,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:43:00,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:43:01,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:43:22,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.41,162.46.1.1,32254,443
+2025-11-20 15:44:42,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:45:06,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:45:26,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:45:32,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:46:07,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 15:46:29,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:46:53,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:48:39,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,154.247.1.1,38497,443
+2025-11-20 15:49:43,bwayne,WKSTN-103,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:51:37,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 15:52:06,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:52:13,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:52:34,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:52:47,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 15:53:13,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 15:54:40,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:54:44,ckent,WKSTN-104,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 15:55:00,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 15:55:44,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 15:57:01,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,15.28.1.1,42041,443
+2025-11-20 15:59:07,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,19.218.1.1,48954,443
+2025-11-20 16:00:01,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,173.67.1.1,31744,443
+2025-11-20 16:00:53,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 16:01:49,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.36,60.120.1.1,48274,443
+2025-11-20 16:02:39,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:03:01,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:04:04,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,51.222.1.1,23741,443
+2025-11-20 16:04:52,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.25,170.158.1.1,38125,443
+2025-11-20 16:05:03,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,161.39.1.1,18486,443
+2025-11-20 16:05:23,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:05:26,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,172.145.1.1,23964,443
+2025-11-20 16:05:32,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,131.35.1.1,10323,443
+2025-11-20 16:07:47,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.46,75.110.1.1,38095,443
+2025-11-20 16:08:13,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.44,20.117.1.1,53530,443
+2025-11-20 16:09:13,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:09:18,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 16:09:19,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:09:50,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:11:37,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,137.171.1.1,25766,443
+2025-11-20 16:12:42,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 16:13:22,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.11,23.190.1.1,59847,443
+2025-11-20 16:13:27,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.12,152.190.1.1,20814,443
+2025-11-20 16:14:19,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:15:52,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,137.178.1.1,57083,443
+2025-11-20 16:17:54,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.30,178.159.1.1,55294,443
+2025-11-20 16:18:02,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.38,74.169.1.1,58508,443
+2025-11-20 16:18:31,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:18:55,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.35,25.162.1.1,14415,443
+2025-11-20 16:19:02,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:19:07,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,10.199.1.1,42588,443
+2025-11-20 16:19:23,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:20:29,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:21:02,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.40,149.141.1.1,41550,443
+2025-11-20 16:21:16,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.34,198.204.1.1,38457,443
+2025-11-20 16:21:40,jdoe,WKSTN-101,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:22:15,jdoe,WKSTN-101,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 16:22:28,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,159.200.1.1,48827,443
+2025-11-20 16:23:05,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:23:55,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.21,148.65.1.1,45085,443
+2025-11-20 16:24:07,bwayne,WKSTN-103,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:25:05,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:25:28,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.24,98.148.1.1,52734,443
+2025-11-20 16:25:58,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 16:26:10,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:26:38,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 16:27:33,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:27:52,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.23,187.63.1.1,22761,443
+2025-11-20 16:27:57,ckent,WKSTN-104,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 16:28:15,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:28:27,jdoe,WKSTN-101,4624,-,-,-,-,-,-
+2025-11-20 16:28:30,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.11,112.112.1.1,51999,443
+2025-11-20 16:28:44,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:30:39,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:32:09,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 16:32:26,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:33:42,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.50,125.92.1.1,44179,443
+2025-11-20 16:34:13,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:34:21,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:34:37,bwayne,WKSTN-103,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:34:48,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.16,181.176.1.1,24565,443
+2025-11-20 16:35:25,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.20,80.58.1.1,23588,443
+2025-11-20 16:35:38,bwayne,WKSTN-103,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:36:10,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:37:16,ckent,WKSTN-104,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:38:53,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 16:41:21,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.32,158.159.1.1,28057,443
+2025-11-20 16:44:04,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.17,48.185.1.1,20577,443
+2025-11-20 16:44:07,asmith,WKSTN-102,1,C:\Windows\System32\svchost.exe,-,-,-,-,-
+2025-11-20 16:44:38,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.11,17.79.1.1,47660,443
+2025-11-20 16:46:15,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 16:46:23,jdoe,WKSTN-101,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:48:11,ckent,WKSTN-104,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:48:38,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:48:41,bwayne,WKSTN-103,4624,-,-,-,-,-,-
+2025-11-20 16:48:54,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:50:06,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.27,21.129.1.1,40882,443
+2025-11-20 16:51:39,jdoe,WKSTN-101,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:51:50,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.19,107.254.1.1,14390,443
+2025-11-20 16:51:59,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.37,185.199.1.1,39343,443
+2025-11-20 16:52:04,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:52:05,asmith,WKSTN-102,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.25,88.87.1.1,18472,443
+2025-11-20 16:52:14,jdoe,WKSTN-101,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,49.2.1.1,56756,443
+2025-11-20 16:54:18,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:55:07,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.39,118.232.1.1,58717,443
+2025-11-20 16:56:41,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:56:44,asmith,WKSTN-102,1,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,-,-,-,-,-
+2025-11-20 16:56:46,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:57:27,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,10.142.1.1,22280,443
+2025-11-20 16:57:52,bwayne,WKSTN-103,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.42,125.70.1.1,49757,443
+2025-11-20 16:58:06,ckent,WKSTN-104,4624,-,-,-,-,-,-
+2025-11-20 16:58:10,asmith,WKSTN-102,1,C:\Windows\explorer.exe,-,-,-,-,-
+2025-11-20 16:58:19,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.49,141.17.1.1,11131,443
+2025-11-20 16:59:07,asmith,WKSTN-102,4624,-,-,-,-,-,-
+2025-11-20 16:59:10,asmith,WKSTN-102,1,C:\Program Files\Google\Chrome\Application\chrome.exe,-,-,-,-,-
+2025-11-20 16:59:31,ckent,WKSTN-104,3,C:\Program Files\Google\Chrome\Application\chrome.exe,-,192.168.1.43,190.132.1.1,36091,443
+2025-11-20 16:59:56,ckent,WKSTN-104,4624,-,-,-,-,-,-

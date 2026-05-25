@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Forensic Workstation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-background"></div>
+    <div class="app-container">
+        <!-- LEFT SIDEBAR NAVIGATION -->
+        <aside class="sidebar-nav">
+            <div class="nav-branding">
+                <span style="font-size: 1.4rem; margin-right: 0.5rem; filter: drop-shadow(0 0 5px rgba(6, 182, 212, 0.8));">🎯</span>
+                <h2>AI Lateral <span class="highlight">Hunter</span></h2>
+            </div>
+            
+            <nav class="nav-menu">
+                <div class="menu-label">Workspace</div>
+                <button class="nav-btn active" data-target="uploadSection">
+                    <span class="icon">⇪</span> Evidence Ingestion
+                </button>
+                
+                <div class="menu-label">Investigation</div>
+                <button class="nav-btn" data-target="timelineSection">
+                    <span class="icon">○</span> Timeline Analysis
+                </button>
+                <button class="nav-btn" data-target="eventsSection">
+                    <span class="icon">⚡</span> Security Events
+                </button>
+                <button class="nav-btn" data-target="rawLogsSection">
+                    <span class="icon">🔍</span> Raw Telemetry
+                </button>
+
+                <div class="menu-label">SOC Tier 2</div>
+                <button class="nav-btn" data-target="responseSection">
+                    <span class="icon">🛡️</span> Threat Response
+                </button>
+                
+                <div class="menu-label">Investigation Notes</div>
+                <button class="nav-btn" data-target="notesSection">
+                    <span class="icon">✎</span> Analyst Notes
+                </button>
+            </nav>
+
+            <div class="nav-footer">
+                <div class="session-info">
+                    <span class="status-indicator"></span>
+                    <div class="session-text">
+                        <span class="label">System Status</span>
+                        <span class="value">Online & Ready</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-workspace">
+            
+            <!-- 1. UPLOAD EVIDENCE TAB -->
+            <section id="uploadSection" class="view-panel active-view glass-panel">
+                <div class="upload-container">
+                    <div class="upload-card">
+                        <div class="upload-glow"></div>
+                        <div class="upload-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                        </div>
+                        <h2>Awaiting Telemetry</h2>
+                        <p class="subtitle">Drag and drop raw Sysmon CSV logs to initiate behavioral analysis.</p>
+                        <input type="file" id="fileInput" accept=".csv" style="display: none;">
+                        <button class="btn-primary pulse-btn" onclick="document.getElementById('fileInput').click()">Ingest Evidence</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loading State Overlay -->
+            <section id="loadingSection" class="view-panel overlay-panel">
+                <div class="loading-container glass-card">
+                    <div class="spinner"></div>
+                    <h2>Processing Telemetry...</h2>
+                    <p class="subtitle">Applying behavioral ML models and static forensic rules.</p>
+                </div>
+            </section>
+
+            <!-- 2. TIMELINE TAB -->
+            <section id="timelineSection" class="view-panel glass-panel">
+                <div class="panel-header">
+                    <div class="header-content">
+                        <h3>Chronological Attack Reconstruction</h3>
+                        <p class="subtitle">Volume of alerts over time</p>
+                    </div>
+                </div>
+                <div class="workspace-content">
+                    <div class="panel timeline-panel">
+                        <div class="chart-canvas-container timeline-container empty-state-container" id="timeline-container">
+                            <canvas id="alertsTimelineChart"></canvas>
+                            <div class="empty-state-message">Awaiting telemetry ingestion.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. EVENTS TAB -->
+            <section id="eventsSection" class="view-panel glass-panel">
+                <div class="panel-header">
+                    <div class="header-content">
+                        <h3>Primary Forensic Events</h3>
+                        <p class="subtitle">High-fidelity detections spanning ML and Rules.</p>
+                    </div>
+                </div>
+                <div class="workspace-content">
+                    <div class="stats-panel">
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: rgba(0, 255, 136, 0.1); color: #00ff88;">✓</div>
+                            <div class="stat-details">
+                                <div class="stat-value" id="ruleCount">0</div>
+                                <div class="stat-label">Rules Triggered</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: rgba(0, 163, 255, 0.1); color: #00a3ff;">⚙</div>
+                            <div class="stat-details">
+                                <div class="stat-value" id="mlCount">0</div>
+                                <div class="stat-label">ML Anomalies</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: rgba(255, 51, 102, 0.1); color: #ff3366;">⚡</div>
+                            <div class="stat-details">
+                                <div class="stat-value" id="hybridCount">0</div>
+                                <div class="stat-label">Hybrid Detections</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: rgba(255, 153, 0, 0.1); color: #ff9900;">🎯</div>
+                            <div class="stat-details">
+                                <div class="stat-value" id="actionableCount">0</div>
+                                <div class="stat-label">Actionable Events</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event Table -->
+                    <div class="panel table-panel">
+                        <div class="table-scroll-container empty-state-container" id="events-table-container">
+                            <table id="alertsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>Event ID</th>
+                                        <th>User</th>
+                                        <th>Host</th>
+                                        <th>Process</th>
+                                        <th>Source IP</th>
+                                        <th>Source Port</th>
+                                        <th>Dest IP</th>
+                                        <th>Dest Port</th>
+                                        <th>Detection Source</th>
+                                        <th>Detection Type</th>
+                                        <th>Severity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                            <div class="empty-state-message">No events generated. Awaiting telemetry.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. RAW SYSMON LOGS TAB -->
+            <section id="rawLogsSection" class="view-panel glass-panel">
+                <div class="panel-header">
+                    <div class="header-content">
+                        <h3>Raw Telemetry Explorer</h3>
+                        <p class="subtitle">Complete visibility into parsed Sysmon events.</p>
+                    </div>
+                    <div class="toolbar">
+                        <input type="text" placeholder="Filter command lines, hashes..." class="search-input">
+                    </div>
+                </div>
+                <div class="workspace-content no-padding">
+                    <div class="panel table-panel">
+                        <div class="table-scroll-container empty-state-container" id="raw-logs-table-container">
+                            <table id="rawLogsTable" class="compact-table">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Event</th>
+                                        <th>User</th>
+                                        <th>Computer</th>
+                                        <th>Command Line / Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                            <div class="empty-state-message" style="margin-top:2rem;">No telemetry loaded.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 7. THREAT RESPONSE TAB -->
+            <section id="responseSection" class="view-panel glass-panel">
+                <div class="panel-header">
+                    <div class="header-content">
+                        <h3 class="glow-text">Active Threat Response (Tier 2)</h3>
+                    </div>
+                    <div class="header-actions">
+                        <span class="badge" style="background: rgba(255, 51, 102, 0.2); color: #ff3366; padding: 0.5rem 1rem;">Action Required</span>
+                    </div>
+                </div>
+                <div class="workspace-content">
+                    <div class="card">
+                        <div id="threat-response-container" class="response-grid" style="display: grid; gap: 1rem;">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8. INVESTIGATION NOTES TAB -->
+            <section id="notesSection" class="view-panel glass-panel">
+                <div class="panel-header">
+                    <div class="header-content">
+                        <h3>Analyst Notes</h3>
+                    </div>
+                </div>
+                <div class="workspace-content">
+                    <textarea class="notes-area" placeholder="Document indicators of compromise, timestamps, and investigation findings here..."></textarea>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- RIGHT INVESTIGATION DRAWER -->
+        <aside class="investigation-drawer glass-drawer" id="investigationDrawer">
+            <div class="drawer-header">
+                <h3>Forensic Inspection View</h3>
+                <button class="btn-close" onclick="closeDrawer()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            
+            <div class="drawer-content">
+                <div class="drawer-card header-card">
+                    <div class="severity-badge" id="drawer-severity">--</div>
+                    <div class="card-value title" id="drawer-alert-type">--</div>
+                    <div class="detection-source-badge" id="drawer-source-badge">--</div>
+                </div>
+
+                <div class="drawer-card">
+                    <div class="card-label">MITRE ATT&CK Mapping</div>
+                    <div class="mitre-tags" id="drawer-mitre"></div>
+                </div>
+
+                <div class="drawer-card" id="drawer-severity-container">
+                    <div class="card-label">Severity Justification</div>
+                    <p class="explanation-text" id="drawer-severity-expl"></p>
+                </div>
+
+                <div class="drawer-card">
+                    <div class="card-label" id="drawer-detection-label">Detection Reasoning</div>
+                    <p class="explanation-text" id="drawer-explanation">--</p>
+                </div>
+
+                <div class="drawer-card">
+                    <div class="card-label">Extracted Metadata</div>
+                    <div class="metadata-grid">
+                        <div class="meta-item"><span class="meta-label">Timestamp</span><span class="meta-value mono" id="drawer-time">--</span></div>
+                        <div class="meta-item"><span class="meta-label">User</span><span class="meta-value mono highlight" id="drawer-user">--</span></div>
+                        <div class="meta-item"><span class="meta-label">Host</span><span class="meta-value mono" id="drawer-host">--</span></div>
+                        <div class="meta-item"><span class="meta-label">Source Network</span><span class="meta-value mono" id="drawer-src">--</span></div>
+                        <div class="meta-item"><span class="meta-label">Dest Network</span><span class="meta-value mono" id="drawer-dst">--</span></div>
+                        <div class="meta-item"><span class="meta-label">Process ID</span><span class="meta-value mono" id="drawer-pid">--</span></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
